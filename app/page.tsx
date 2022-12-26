@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import styles from "../styles/Home.module.css";
 
-const home = () => {
+const home = (): JSX.Element => {
   return (
     <>
       <div className={styles.main}>
